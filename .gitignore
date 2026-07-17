@@ -1,0 +1,40 @@
+# Maven build output
+/target/
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA files
+*.iml
+.idea/
+
+# VS Code files
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java-specific
+*.class
+*.jar
+*.war
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Spring Boot devtools
+spring-devtools.properties
+
+# Generated dependency directories
+dependency-reduced-pom.xml
+
+# Local Maven repository
+.mvn/repository

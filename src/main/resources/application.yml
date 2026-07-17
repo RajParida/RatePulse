@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+ratelimiter:
+  algorithm: tokenBucket
+  tokenBucket:
+    capacity: 20
+    refillTokens: 5
+    refillPeriodSeconds: 1
+  leakyBucket:
+    capacity: 20
+    leakRatePerSecond: 5
+  slidingWindow:
+    windowSeconds: 60
+    maxRequests: 100
+  allowedApiKeys:
+    - internship-key
