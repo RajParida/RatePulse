@@ -11,6 +11,25 @@ The gateway also enforces a simple API key security throttle to validate incomin
 
 ## Build and run
 
+### Option 1: Run with Docker
+
+1. Build the image:
+   ```
+   docker build -t ratelimiter:latest .
+   ```
+2. Run the container:
+   ```
+   docker run -p 8080:8080 ratelimiter:latest
+   ```
+
+### Option 2: Run with Docker Compose
+
+```bash
+docker compose up --build
+```
+
+### Option 3: Run locally with Maven
+
 1. Build the application:
    ```
    mvn clean package
