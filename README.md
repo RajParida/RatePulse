@@ -1,4 +1,4 @@
-# Distributed Rate Limiter and Security Throttle
+# RatePulse - Distributed Rate Limiter and Security Throttle
 
 This Spring Boot project implements an API gateway component that protects downstream services by throttling incoming requests.
 
