@@ -54,10 +54,10 @@ Example values:
 
 ## Security
 
-Requests must include a valid `X-API-KEY` header. Invalid or missing keys return `401 Unauthorized`.
+Requests must include a valid `X-API-KEY` header with value `request`. Invalid or missing keys return `401 Unauthorized`.
 
 ## Example request
 
 ```bash
-curl -H "X-API-KEY: some-key" http://localhost:8080/api/data
+curl -H "X-API-KEY: request" http://localhost:8080/api/data
 ```

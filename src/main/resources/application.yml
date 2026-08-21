@@ -14,4 +14,4 @@ ratelimiter:
     windowSeconds: 60
     maxRequests: 100
   allowedApiKeys:
-    - internship-key
+    - request
